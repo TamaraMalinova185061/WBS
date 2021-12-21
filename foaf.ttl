@@ -1,0 +1,33 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns0: <http://webns.net/mvcb/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://raw.githubusercontent.com/TamaraMalinova185061/WBS/master/foaf.ttl>
+  a foaf:PersonalProfileDocument ;
+  foaf:maker <https://raw.githubusercontent.com/TamaraMalinova185061/WBS/master/foaf.ttl#me> ;
+  foaf:primaryTopic <https://raw.githubusercontent.com/TamaraMalinova185061/WBS/master/foaf.ttl#me> ;
+  ns0:generatorAgent <http://www.ldodds.com/foaf/foaf-a-matic> ;
+  ns0:errorReportsTo <mailto:leigh@ldodds.com> .
+
+<https://raw.githubusercontent.com/TamaraMalinova185061/WBS/master/foaf.ttl#me>
+  a foaf:Person ;
+  foaf:name "Tamara Malinova" ;
+  foaf:title "Ms" ;
+  foaf:givenname "Tamara" ;
+  foaf:family_name "Malinova" ;
+  foaf:nick "Tami" ;
+  foaf:mbox_sha1sum "bebffa0b08d901cc75f4fa8ca9d283f308993a03" ;
+  foaf:homepage <https://www.facebook.com/tamara.malinovaa/> ;
+  foaf:phone <tel:078700212> ;
+  foaf:schoolHomepage <https://www.finki.ukim.mk/mk> ;
+  foaf:knows [
+    a foaf:Person ;
+    foaf:name "Emilija Georgievska" ;
+    foaf:mbox_sha1sum "b0d03fce499aa7696467ed1d15012b2cfccc1f52" ;
+    rdfs:seeAlso <https://raw.githubusercontent.com/GeorgievskaEmilija/wbs-foaf/master/foaf.ttl?fbclid=IwAR1gfcLniohZlDuuxfHzISBewSiF2T_47DWAByBMcz23qHmDak0Kq_Dc2Pc>
+  ], [
+    a foaf:Person ;
+    foaf:name "Zorica Koceva" ;
+    foaf:mbox_sha1sum "01278cb944b383bb33a9571efac59365c796bd47" ;
+    rdfs:seeAlso <https://raw.githubusercontent.com/ZoricaKoceva/WBS_FOAF/master/foaf.ttl?fbclid=IwAR1Y0v3Ft2AVhpKceN2y9vZO6lQwRmLCO_L_Cewbv3OnEOoTHGmnNwBhVzE>
+  ] .
